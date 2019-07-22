@@ -1,22 +1,23 @@
-title: Hello, world! I'm David Freeman
+title: O conhecimento não para
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
 baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://morvanabonin.dev" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
+author: Morvana Bonin # add your name
+author-img: morvana-bonin.jpg # add your photo
+about-author: Desenvolvedora de software, com foco em desenvolvimento backend. Sempre com fome de continuar aprendendo. # add description
+social-twitter: morvanabonin # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-gitlab: morvanabonin # add your Gitlab handle
+social-github: morvanabonin # add your Github handle
+social-linkedin: morvanabonin # add your Linkedin handle
+social-email: morvanabonin@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
@@ -29,7 +30,8 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
+# - jemoji
+  - gemoji
 
 paginate: 8
 paginate_path: "/page/:num"
