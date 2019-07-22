@@ -1,1 +1,1 @@
-Sitemap: https://morvanabonin.github.io/flexible-jekyll/sitemap.xml
+Sitemap: https://morvanabonin.github.io/sitemap.xml
