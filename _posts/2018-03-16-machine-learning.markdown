@@ -2,11 +2,13 @@
 layout: post
 title: Uma introdução a Machine Learning
 date: 2018-03-16
-description: Inteligência Artificial é a ciência de construir coisas inteligentes.
-img: ai-vs-ml.png # Add image post (optional)
+description: 
+img: ai-ml-dl.png # Add image post (optional)
 fig-caption: ai-vs-ml.png # Add figcaption (optional)
 tags: [Machine, Learning, Supervised, Unsupervised, Reinforcement]
 ---
+Inteligência Artificial é a ciência de construir coisas inteligentes.
+
 Machine Learning é um subcampo de Inteligência Artificial (IA) e tem como principal abordagem a de aprender através da experiência para encontrar padrões em conjunto de dados.
 
 Envolve ensinar, através de exemplos, um computador a reconhecer padrões em vez de programa-lo com regras específicas.
