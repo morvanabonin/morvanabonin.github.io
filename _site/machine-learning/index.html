@@ -2,34 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to Jekyll! - O conhecimento não para</title>
+	<title>Uma introdução a Machine Learning - O conhecimento não para</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="O conhecimento não para" property="og:site_name">
   
-    <meta content="Welcome to Jekyll!" property="og:title">
+    <meta content="Uma introdução a Machine Learning" property="og:title">
   
   
     <meta content="article" property="og:type">
   
   
-    <meta content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes." property="og:description">
+    <meta content="Inteligência Artificial é a ciência de construir coisas inteligentes." property="og:description">
   
   
-    <meta content="https://morvanabonin.github.io/welcome-to-jekyll/" property="og:url">
+    <meta content="https://morvanabonin.github.io/machine-learning/" property="og:url">
   
   
-    <meta content="2017-04-06T07:32:20-03:00" property="article:published_time">
+    <meta content="2018-03-16T00:00:00-03:00" property="article:published_time">
     <meta content="https://morvanabonin.github.io/about/" property="article:author">
   
   
-    <meta content="https://morvanabonin.github.io/assets/img/morvana-bonin.jpg" property="og:image">
+    <meta content="https://morvanabonin.github.io/assets/img/ai-vs-ml.png" property="og:image">
   
   
     
   
   
+    
+    <meta content="Machine" property="article:tag">
+    
+    <meta content="Learning" property="article:tag">
+    
+    <meta content="Supervised" property="article:tag">
+    
+    <meta content="Unsupervised" property="article:tag">
+    
+    <meta content="Reinforcement" property="article:tag">
     
   
 
@@ -37,19 +47,19 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@morvanabonin">
   
-    <meta name="twitter:title" content="Welcome to Jekyll!">
+    <meta name="twitter:title" content="Uma introdução a Machine Learning">
   
   
-    <meta name="twitter:url" content="https://morvanabonin.github.io/welcome-to-jekyll/">
+    <meta name="twitter:url" content="https://morvanabonin.github.io/machine-learning/">
   
   
-    <meta name="twitter:description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+    <meta name="twitter:description" content="Inteligência Artificial é a ciência de construir coisas inteligentes.">
   
   
-    <meta name="twitter:image:src" content="https://morvanabonin.github.io/assets/img/morvana-bonin.jpg">
+    <meta name="twitter:image:src" content="https://morvanabonin.github.io/assets/img/ai-vs-ml.png">
   
 
-	<meta name="description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+	<meta name="description" content="Inteligência Artificial é a ciência de construir coisas inteligentes.">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
@@ -115,34 +125,50 @@
   <article class="article-page">
   <div class="page-content">
     
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/ai-vs-ml.png alt="Uma introdução a Machine Learning">
+        
+          <figcaption>ai-vs-ml.png</figcaption>
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">Welcome to Jekyll!</h1>
-        <div class="page-date"><span>2017, Apr 06&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <h1 class="page-title">Uma introdução a Machine Learning</h1>
+        <div class="page-date"><span>2018, Mar 16&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+      <p>Machine Learning é um subcampo de Inteligência Artificial (IA) e tem como principal abordagem a de aprender através da experiência para encontrar padrões em conjunto de dados.</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Envolve ensinar, através de exemplos, um computador a reconhecer padrões em vez de programa-lo com regras específicas.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>De acordo a definição de Tom M. Mitchell, cientista da computação e professor, “É dado a um programa de computador aprender com a experiência E em relação a uma classe de tarefas T e sua medida de desempenho P, sendo que seu desempenho nas tarefas T, conforme medido por P, melhora com a experiência E”</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>Vamos a um exemplo para tornar a definição acima mais clara, digamos que um programa de e-mail fique observando quais os e-mails que chegam e são marcados pelo usuário como spam ou não spam para aprender dessa forma filtrar melhor os próximos.</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>Teriamos então que, nosso T (Tarefas) seria a de classificar emails como spam ou não spam, nosso E (Experiência) seria a observação sobre a rotulação de e-mails como spam ou não spam e nosso P (Performance) seria a medida de e-mails corretamente classificados como spam ou não spam.
+Sendo assim, nosso classificador aprenderia a filtrar melhor, reconhecendo os padrões de Spam ou não Spam, através da medida de erros que obtivesse e da experiência adquirida, quanto maior a experiência, mais chance de a performance ser melhor e ser mais assertivos quanto marcar corretamente um e-mail como Spam ou não Spam.</p>
 
+<p>O exemplo a seguir é apenas uma representação bem simples do que seria um programa normal e suas regras e outro com Machine Learning.</p>
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=Welcome to Jekyll!&url=https://morvanabonin.github.io/welcome-to-jekyll/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=https://morvanabonin.github.io/welcome-to-jekyll/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url=https://morvanabonin.github.io/welcome-to-jekyll/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+          <a href="https://twitter.com/intent/tweet?text=Uma introdução a Machine Learning&url=https://morvanabonin.github.io/machine-learning/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=https://morvanabonin.github.io/machine-learning/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=https://morvanabonin.github.io/machine-learning/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         <div class="page-tag">
+          
+            <a href="/tags#Machine" class="tag">&#35; Machine</a>
+          
+            <a href="/tags#Learning" class="tag">&#35; Learning</a>
+          
+            <a href="/tags#Supervised" class="tag">&#35; Supervised</a>
+          
+            <a href="/tags#Unsupervised" class="tag">&#35; Unsupervised</a>
+          
+            <a href="/tags#Reinforcement" class="tag">&#35; Reinforcement</a>
           
         </div>
       </div>
