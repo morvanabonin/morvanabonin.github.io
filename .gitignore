@@ -1,5 +1,5 @@
 Gemfile.lock
-Gemfile
 .sass-cache
 jekyll-theme-tactile.gemspec
 node_modules/
+.jekyll-cache/

@@ -1,8 +1,6 @@
-title: O conhecimento não para
+title: Always evolving
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Software developer focused on backend development and student of software architecture. Always hungry to learn.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://morvanabonin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Morvana Bonin # add your name
 author-img: morvana-bonin.jpg # add your photo
-about-author: Desenvolvedora de software, com foco em desenvolvimento backend. Sempre com fome de continuar aprendendo. # add description
+about-author: Software developer focused on backend development and student of software architecture. Always hungry to learn. # add description
 social-twitter: morvanabonin # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-gitlab: morvanabonin # add your Gitlab handle
@@ -31,7 +29,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 # - jemoji
-  - gemoji
+#  - gemoji
 
 paginate: 8
 paginate_path: "/page/:num"
