@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Morvana Bonin
 # description: This will be meta HTML tag content. This can be ignored.
-description: Python | API | Microservices
+description: Golang | Python | API | Microservices
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
